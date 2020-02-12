@@ -2,25 +2,21 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import {
-  Content,
   SideNav,
   SideNavItems,
   SideNavLink,
   SideNavMenu,
-  SideNavMenuItem
 } from "carbon-components-react/lib/components/UIShell";
 
 import "./gen.min.css";
 
 var ActiveItem = "";
 
-
 function handler (children) {
   return children.map( ( subOption ) => {
     if (!subOption.children ) {
       return(
         <SideNavLink
-          href=""
           key={subOption.name}
           onClick={() => ActiveItem = subOption.name}
           isActive={ActiveItem === subOption.name}

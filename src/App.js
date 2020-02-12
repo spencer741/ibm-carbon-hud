@@ -1,11 +1,10 @@
 import React from 'react';
-import { HashRouter, Route, Redirect} from 'react-router-dom';
+import { HashRouter, Route} from 'react-router-dom';
 
 import './App.css';
-import Hud from './Hud.js';
-import InventoryPortal from './Views/InventoryPortal.js'
-import InteractiveMaps from './Views/InteractiveMaps.js'
-
+import CarbonHud from './CarbonHud.js';
+import Test1 from './Views/Test1.js';
+import Test2 from './Views/Test2.js';
 
 const testinput = 
 {
@@ -64,22 +63,17 @@ const testinput =
   ]
 }
 
-
-
-
 function App() {
   return (
     <div className="App">
        <HashRouter>
             <Route>
-              <Hud features = {testinput}>
-               
-                <Route path="/Inventory-Portal" component={InventoryPortal}/>
-                <Route path="/Interactive-Maps" component={InteractiveMaps}/>
-                </Hud>
+              <CarbonHud features = {testinput}>
+                <Route path="/Test1" component={Test1}/>
+                <Route path="/Test2" component={Test2}/>
+              </CarbonHud>
             </Route>
         </HashRouter>
-      
     </div>
   );
 }
