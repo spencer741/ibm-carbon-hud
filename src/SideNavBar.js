@@ -8,7 +8,7 @@ import {
   SideNavMenu,
 } from "carbon-components-react/lib/components/UIShell";
 
-import "./gen.min.css";
+import "./gen.css";
 
 var ActiveItem = "";
 
