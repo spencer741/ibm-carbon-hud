@@ -16,7 +16,10 @@ implement notification dispatcher
 
 ## Roadmap
 Add top nav menu functionality
+
 Add app switcher (link functionality)
+
 Add Icon functionality to entire app
+
 Add title functionality
 
