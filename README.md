@@ -8,8 +8,6 @@ Dynamically generating nested menus from a Json template with routable links. (t
 
 Based off of IBM Carbon Design system homepage. 
 
-Contains a file gen.css which is one of their design builds, tweaked by myself a tad.
-
 ## To Do
 Fix routing with sidenav links
 implement notification dispatcher
