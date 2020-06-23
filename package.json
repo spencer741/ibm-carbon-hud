@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
+    "@testing-library/react": "^10.4.1",
     "@testing-library/user-event": "^7.2.1",
-    "carbon-components": "^10.9.3",
+    "carbon-components": "^10.14.0",
     "carbon-components-react": "^7.9.3",
     "carbon-icons": "^7.0.7",
     "react": "^16.13.1",
