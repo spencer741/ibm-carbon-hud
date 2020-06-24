@@ -1,3 +1,5 @@
+Notice: This project is **not** ready for production use. Migration to TypeScript, finishing core features, and more testing are still in the works.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Aimed at creating a react component built from [IBM Carbon Design System](https://www.carbondesignsystem.com) that contains a Navigation overlay (Heads up display) for bootstrapping your next app.
