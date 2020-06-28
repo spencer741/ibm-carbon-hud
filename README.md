@@ -7,7 +7,7 @@ Aimed at creating a react component built from [IBM Carbon Design System](https:
 
 
 ## Features:
-Dynamically generating nested menus from a Json template with routable links. (this can be extremely helpful for an application with UAC for specific features).
+Dynamically generating nested menus from a Json template with routable links. (this can be extremely helpful for an application with frontend soft-UAC for specific features).
 
 Based off of IBM Carbon Design system homepage. 
 
