@@ -1,5 +1,5 @@
 ## Notice:
-I have seen increased traffic on this repository recently and have decided work towards the goal of releasing this. This project is **not** ready for production use yet. Migration to TypeScript, finishing core features, and more testing are still in the works. Stay tuned.
+Archiving. Project no longer worked on / maintained.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
